@@ -57,3 +57,58 @@ body{
     color: white;
     margin-left: 1rem;
 }
+
+.navbar{
+    height: 9vh;
+    background-color: #fff;
+}
+
+.nav-maindiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-div{
+    margin-left: 1.8rem;
+    margin-top: 1.3rem;
+}
+
+.left-div{
+    font-size: 20px;
+    color: gray;
+}
+
+.right-div{
+    margin-right: 1.8rem;
+    margin-top: 1.3rem;
+    position: relative;
+}
+
+.right-div i{
+    margin-right: .4rem;
+}
+
+.notify-sup{
+    position: absolute;
+    top: -4%;
+    left: 8%;
+    background-color: #4bb0dd;
+    padding: .1rem .3rem;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 8px;
+}
+
+
+.email-sup{
+    position: absolute;
+    top: -4%;
+    left: 35%;
+    background-color: #d25c7b;
+    padding: .1rem .3rem;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 8px;
+}
