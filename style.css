@@ -41,3 +41,19 @@ body{
     color: #fff;
     margin-left: .4rem;
 }
+
+.link-flex{
+    display: flex;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.link-logo i{
+    color: white;
+    margin-left: 1.7rem;
+}
+
+.link-text p{
+    color: white;
+    margin-left: 1rem;
+}
