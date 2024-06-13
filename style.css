@@ -113,78 +113,67 @@ body{
     font-size: 8px;
 }
 
-.render-graph-data{
+.render-ghraph-data{
     height: 46vh;
+}
+.render-ghraph-data{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
-
 .firstBox-div{
-    height: 43vh;
-    width: 55vw;
-    background-color: #fff;
-    border-radius: 2px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  height: 54vh;
+  width: 55vw;
+  background-color: #fff;
+  margin-top: 6rem;
+  border-radius: 2px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-
 .secondBox-div{
-    height: 43vh;
+    height:54vh;
     width: 25vw;
     background-color: #fff;
     margin-left: 1rem;
+    margin-top: 6rem;
     border-radius: 2px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
-
 .secondBox-div p{
     margin-left: 1rem;
     font-size: 14px;
     margin-top: .5rem;
     font-weight: bold;
-    color: #071539;
+    color: #06163a;
 }
-
 .circle-div{
     display: flex;
     justify-content: center;
 }
-
 .circle-div img{
-        height: 210px;
+    height: 280px;
 }
-
 .three-number{
     display: flex;
     justify-content: center;
     margin-top: -1rem;
 }
-
-.firstnum h2{
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 1.5rem;
-}
-
 .firstnum span{
     font-size: 12px;
     margin-left: .2rem;
-    color: gray;
+    color: #acaeae;
 }
-
-.secondnum h2{
-    font-size: 20px;
-    font-weight: bold;
-    margin-left: 1.5rem;
+.firstnum h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 1.5rem;
 }
 
 .secondnum span{
     font-size: 12px;
+    color: #acaeae;
     margin-left: .2rem;
-    color: gray;
 }
-
-.thirdnum h2{
+.secondnum h2{
     font-size: 20px;
     font-weight: bold;
     margin-left: 1.5rem;
@@ -193,9 +182,21 @@ body{
 .thirdnum span{
     font-size: 12px;
     margin-left: .2rem;
-    color: gray;
+    color: #acaeae;
 }
-
+.thirdnum h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+.c{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color:#1a9efe;
+    margin-top: .28rem;
+    margin-left: 1.5rem;
+}
 .ffc{
     height: 10px;
     width: 10px;
@@ -204,12 +205,7 @@ body{
     margin-top: .28rem;
     margin-left: 1.5rem;
 }
-
-.fc{
-    display: flex;
-}
-
-.ssc{
+.tc{
     height: 10px;
     width: 10px;
     border-radius: 50%;
@@ -217,69 +213,58 @@ body{
     margin-top: .28rem;
     margin-left: 1.5rem;
 }
-
-.sc{
+.div{
     display: flex;
 }
-
-.ttc{
-    height: 10px;
-    width: 10px;
-    border-radius: 50%;
-    background-color: #1a9efe;
-    margin-top: .28rem;
-    margin-left: 1.5rem;
-} 
-
-.tc{
+.fc{
     display: flex;
 }
-
+.thc{
+    display: flex;
+}
 .flex-three-div{
     display: flex;
     justify-content: space-between;
-    margin-top: .2rem;
 }
-
 .first-header-div{
     margin-left: .6rem;
+    margin-top: .2rem;
 }
-
 .dash-h{
     font-size: 14px;
 }
-
 .overview-latest{
     font-size: 12px;
-    color:  #919399;
+    color: #919399;
 }
-
-.second-header-div a{
-    text-decoration: none;
-    font-size: 14px;
-    margin-left: 1.2rem;
+.seond-header-div {
+    margin-top: .2rem;
 }
-
+.seond-header-div a{
+   text-decoration: none;
+   font-size: 14px;
+   margin-left: 1.2rem;
+}
 .daily{
     color: black;
     font-weight: bold;
-    border-bottom: 3px solid #ff5e13;
     padding-bottom: .5rem;
+    border-bottom: 3px solid #fe5e15;
 }
-
 .all-c{
-    color:  #919399;
+    color: #919399;
 }
-
 .third-header-div{
     display: flex;
+    margin-top: .2rem;
     margin: .4rem;
 }
-
+.first-store{
+    display: flex;
+}
 .first-online{
     display: flex;
 }
-
 .color-c-1{
     height: 10px;
     width: 10px;
@@ -288,7 +273,6 @@ body{
     margin-top: .35rem;
     margin-left: 1.5rem;
 }
-
 .color-c-2{
     height: 10px;
     width: 10px;
@@ -297,19 +281,192 @@ body{
     margin-top: .35rem;
     margin-left: 1.5rem;
 }
-
-.first-store{
-    display: flex;
-}
-
 .first-online p{
     font-size: 14px;
     margin-left: .2rem;
     color: #919399;
 }
-
 .first-store p{
     font-size: 14px;
     margin-left: .2rem;
-    color:  #919399;
+    color: #919399;
+}
+.render-graphDIV{
+    display: flex;
+    margin-top: 1rem;
+    padding-bottom: .5rem;
+    border-bottom: .1px solid rgb(200, 192, 192);
+}
+.secondGRAPH_div{
+    width: 100%;
+    position: relative;
+
+}
+.tt-earnings{
+    margin-left: .6rem;
+    margin-top: 1rem;
+    width: 150px;
+}
+.tt-earnings p{
+    font-size: 10px;
+    color: #919399;
+}
+.secondGRAPH_div table{
+    margin-left: .5rem;
+}
+.current-month-sales{
+    margin-left: .6rem;
+    margin-top: 1.2rem;
+}
+.current-month-sales p{
+    font-size: 10px;
+    color: #919399; 
+}
+.btnDiv{
+    margin-top: 1.2rem;
+    margin-left: .6rem;
+}
+.btnDiv button{
+    padding: .8rem;
+    border: none;
+    outline: none;
+    background-color: #fe5e15;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 12px;
+}
+table{
+    margin-top: .5rem;
+}
+.tableColor{
+    border: 1px solid rgb(229, 221, 221);
+}
+.image-graph-div{
+    position: absolute;
+    top: 23%;
+    left: 1%;
+}
+.image-graph-div img{
+    height: 136.5px;
+    width: 95%;
+}
+.countingDiv{
+    margin-left: 8rem;
+    margin-top: .2rem;
+}
+.countingDiv p{
+    font-size: 12px;
+    color: #919399;
+    margin-bottom: .45rem;
+}
+.lastCOuntingDiv{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.lastCOuntingDiv p{
+    font-size: 14px;
+    color: #919399;
+}
+.firstCount-q{
+    margin-left: .5rem;
+}
+.lastElement{
+    margin-right: .9rem;
+}
+.iconsand-info-div{
+    display: flex;
+    justify-content: space-between;
+}
+.FirsticonsCricle{
+    height: 50px;
+    width: 50px;
+    background-color: #f33923;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SecondiconsCricle{
+    height: 50px;
+    width: 50px;
+    background-color: #6075db;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ThirdIconsCricle{
+    height: 50px;
+    width: 50px;
+    background-color: #48a13a;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ForthiconsCricle{
+    height: 50px;
+    width: 50px;
+    background-color: #fd7397;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ForthiconsCricle i , .ThirdIconsCricle i , .SecondiconsCricle i , .FirsticonsCricle i {
+    color: #fff;
+}
+.first-icon-div{
+    display: flex;
+    margin-left: .8rem;
+}
+.second-icon-div{
+    display: flex;
+}
+.Third-cion_div{
+    display: flex;
+}
+.fourth-icon-div{
+    display: flex;
+    margin-right: .8rem;
+}
+.eastimate{
+  font-size: 14px;
+  color: #919399;
+}
+.refrel{
+    font-size: 14px;
+  color: #919399;
+}
+.walt{
+    font-size: 14px;
+  color: #919399;
+}
+.earn{
+    font-size: 14px;
+  color: #919399;
+}
+.boldearn{
+    font-weight: bold;
+}
+.firstTextInfoDiv{
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+.secondTextInfoDiv{
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+.thirdTextInfoDiv{
+    margin-left: .5rem;
+    margin-top: 1rem;
+}
+.fourthTextInfoDiv{
+    margin-left: .5rem;
+    margin-top: 1rem;
 }
