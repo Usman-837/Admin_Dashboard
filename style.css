@@ -470,3 +470,89 @@ table{
     margin-left: .5rem;
     margin-top: 1rem;
 }
+.main-cards_DIV{
+    display: flex;
+    justify-content: center;
+}
+.multpleCards_div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6rem;
+    width: 95%;
+    
+}
+.cardOne{
+    width: 260px;
+    height: 140px;
+    background-color: #b3c5e2;
+    position: relative;
+}
+.first-cardInfoBox_DV{
+    position: absolute;
+    top: 40%;
+    right: 5%;  
+}
+.first-cardInfoBox_DV h2{
+    color: #59a8de;
+}
+.first-cardInfoBox_DV span{
+    font-size: 13px;
+}
+.cardTwo{
+    width: 260px;
+    height: 140px;
+    background-color: #f5e7bd;
+    position: relative;
+}
+.second-cardInfoBox_DV h2{
+    position: absolute;
+    top: 26%;
+    left: 10%;
+    color: #edc73d;
+}
+.cardTwo img{
+    position: absolute;
+    height: 61px;
+    bottom: 0px;
+}
+.cardThree{
+    width: 260px;
+    height: 140px;
+    background-color: #f3d5c9;
+    position: relative;
+}
+.third-cardInfoBox_DV h2{
+    position: absolute;
+    top: 26%;
+    left: 10%;
+    color: #e16930;
+}
+
+.cardThree img{
+    position: absolute;
+    top: 50%;
+    right: 2%;
+}
+.cardFour{
+    width: 260px;
+    height: 140px;
+    background-color: #ddc2ec;
+    position: relative;
+}
+.fourth-cardInfoBox_DV{
+    position: absolute;
+    top: 40%;
+    right: 5%;
+}
+.fourth-cardInfoBox_DV h2{
+    color: #7e2cc5;
+}
+.fourth-cardInfoBox_DV span{
+    font-size: 13px;
+}
+.cardOne p , .cardTwo p , .cardThree p , .cardFour p{
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 1.6rem;
+    margin-top: 1rem;
+}
