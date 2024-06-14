@@ -581,17 +581,111 @@ table{
 }
 .firstLastD{
     height: 50vh;
-    width: 30vw;
+    width: 33vw;
     background-color: white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .secondLastD{
     height: 50vh;
-    width: 70vw;
+    width: 67vw;
     background-color: white;
     margin-left: 1rem;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .lastTwoD{
     width: 95%;
+}
+.recent-activ{
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 1.6rem;
+    margin-top: .6rem;
+}
+.style-boxOne{
+    height: 40px;
+    width: 40px;
+    background-color: #757ae3;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.style-boxTwo{
+    height: 40px;
+    width: 40px;
+    background-color: #f17493;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.style-boxThree{
+    height: 40px;
+    width: 40px;
+    background-color: #28a0fc;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.style-boxFour{
+    height: 40px;
+    width: 40px;
+    background-color: #fec609;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.style-boxFive{
+    height: 40px;
+    width: 40px;
+    background-color: #51a140;
+    border-radius: 50%;
+    margin-top: .75rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.firsttask-innerDiv , .secondtask-innerDiv , .thirdtask-innerDiv , .fourthtask-innerDiv , .fifthtask-innerDiv{
+    display: flex;
+    align-items: center;
+}
+.first-task , .second-task , .third-task  , .fourth-task , .fifth-task{
+    display: flex;
+    align-items: center;
+}
+.minutesAgo{
+    font-size: 10px;
+    color: gray;
+    margin-left: 1.5rem;
+    margin-bottom: -.5rem;
+}
+.firsttask-innerDiv p , .secondtask-innerDiv p , .thirdtask-innerDiv p , .fourthtask-innerDiv p , .fifthtask-innerDiv p{
+    font-weight: bold;
+    font-size: 10px;
+}
+.style-boxOne{
+    margin-left: 3rem;
+}
+.style-boxTwo{
+    margin-left: 4.8rem;
+}
+.style-boxThree{
+    margin-left: 3.1rem;
+}
+.style-boxFour{
+    margin-left: 4.9rem;
+}
+.style-boxFive{
+    margin-left: 4.9rem;
 }
