@@ -689,3 +689,94 @@ table{
 .style-boxFive{
     margin-left: 4.9rem;
 }
+.firstinnerChildDiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.overview{
+    font-weight: bold;
+}
+.headingTwo p{
+   font-size: 13px;
+   margin-left: 1rem;
+   margin-top: .6rem;
+}
+.headingTwo span{
+    font-size: 12px;
+    color: #919399;
+    margin-left: 1rem;
+}
+.ffffff{
+    margin-left: 1rem;
+}
+.sssss{
+    margin-right: 1rem;
+}
+.ffffff button{
+    border: none;
+    outline: none;
+    background-color:#ff6421 ;
+    color: #fff;
+    padding: .4rem .8rem;
+    border-radius: 2px;
+    font-family: "Poppins";
+}
+#mainFirst , #mainSecond , #mainThird , #mainFourth{
+    background-color: #edf5f8;
+    padding: .5rem .8rem;
+}
+.sssss input{
+    border: none;
+    outline: none;
+    background-color: #edf5f8;
+    font-family: "Poppins";
+    padding: .4rem 1rem;
+    border-radius: 2px;
+}
+.inner-innerDiv1{
+    background-color: #edf5f8;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    padding-bottom: .5rem;
+    padding-right: .5rem;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.inner-innerDiv2{
+    background-color: #edf5f8;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    padding-bottom: .5rem;
+    padding-right: .5rem;
+    border-radius: 2px;
+}
+.inner-innerDiv3{
+    background-color: #edf5f8;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    padding-bottom: .5rem;
+    padding-right: .5rem;
+    border-radius: 2px;
+}
+.lastBTnOn{
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    font-family: "Poppins";
+    background-color: #46a138;
+    color: #fff;
+    border-radius: 2px;
+}
+.lasttwoBtnf{
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    font-family: "Poppins";
+    background-color: #f33b26;
+    color: #fff;
+    border-radius: 2px;
+}
