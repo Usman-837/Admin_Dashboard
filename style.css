@@ -8,7 +8,6 @@
 
 body{
     font-family: "Poppins";
-    overflow: hidden;
     user-select: none;
 }
 
@@ -16,13 +15,13 @@ body{
     display: flex;
 }
 .admin-dash-side-menu{
-    height: 100vh;
+    height: 150vh;
     width: 15vw;
     background-color: #071539;
 }
 
 .admin-dash-render-data{
-    height: 100vh;
+    height: 150vh;
     width: 85vw;
     background-color: #eff5fe;
 }
@@ -486,6 +485,7 @@ table{
     height: 140px;
     background-color: #b3c5e2;
     position: relative;
+    border-radius: 4px;
 }
 .first-cardInfoBox_DV{
     position: absolute;
@@ -503,6 +503,7 @@ table{
     height: 140px;
     background-color: #f5e7bd;
     position: relative;
+    border-radius: 4px;
 }
 .second-cardInfoBox_DV h2{
     position: absolute;
@@ -520,6 +521,7 @@ table{
     height: 140px;
     background-color: #f3d5c9;
     position: relative;
+    border-radius: 4px;
 }
 .third-cardInfoBox_DV h2{
     position: absolute;
@@ -549,6 +551,7 @@ table{
     height: 140px;
     background-color: #ddc2ec;
     position: relative;
+    border-radius: 4px;
 }
 .fourth-cardInfoBox_DV{
     position: absolute;
@@ -566,4 +569,29 @@ table{
     font-weight: bold;
     margin-left: 1.6rem;
     margin-top: 1rem;
+}
+.mainlasttwoDivs{
+    display: flex;
+    justify-content: center;
+}
+.lastTwoD{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.firstLastD{
+    height: 50vh;
+    width: 30vw;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.secondLastD{
+    height: 50vh;
+    width: 70vw;
+    background-color: white;
+    margin-left: 1rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.lastTwoD{
+    width: 95%;
 }
